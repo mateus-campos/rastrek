@@ -27,15 +27,18 @@ const PlansContainer = styled.section `
     }
     .wrapper {
     max-width: 90%;
-    margin: 0 auto;
-    :first-child{
-      margin-right: 40px;
+    margin: 0 auto 20px;
+    :last-child{
+      margin-right: 0;
+       @media (max-width: 969px) {
+        margin-right: 40px;
+      }
       @media (max-width: 800px) {
         margin: 0 0 40px;
       }
     }
       .container {
-      max-width:  395px;
+      max-width: 280px;
       width: 100%;
       min-height: 370px;
       border-radius: 20px 20px 20px 20px;
@@ -133,14 +136,14 @@ export default function Plans(props) {
         <div className="wrapper">
           <div className="container">
             <div className="header">
-            <h4>Standard</h4>
+            <h4>Motos</h4>
             <p>Plano ideal para você que busca suporte e economia</p>
             </div>
             <div className="price">
             <div className="values">
               <p className="primary">R$</p>
-              <p className="second">39</p>
-              <p className="primary">99</p>
+              <p className="second">49</p>
+              <p className="primary">90</p>
             </div>
             <p>Mês</p>
             </div>
@@ -187,9 +190,64 @@ export default function Plans(props) {
         </div>
         <div className="wrapper">
           <div className="container">
+            <div className="header">
+            <h4>Carros</h4>
+            <p>Plano ideal para o seu veiculo</p>
+            </div>
+            <div className="price">
+            <div className="values">
+              <p className="primary">R$</p>
+              <p className="second">39</p>
+              <p className="primary">99</p>
+            </div>
+            <p>Mês</p>
+            </div>
+            <ul className="list">
+            <li>
+              <div>
+                <i></i>
+                <p>Monitoramento em tempo real</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>Historico de Percurso</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>Proteção 24h</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>Cerca Virtual</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>0800 para roubo ou furto</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>Guincho 24h</p>
+              </div>
+            </li>
+          </ul>
+          <p className="obs">*Consulte valores de instalação</p>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="container">
           <div className="header">
-            <h4>Premium</h4>
-            <p>Plano ideal para você que busca um suporte completo</p>
+            <h4>Caminhão</h4>
+            <p>Plano ideal para os veiculos do seu negócio</p>
             </div>
             <div className="price">
             <div className="values">
