@@ -63,8 +63,7 @@ export default function Footer() {
           de veículos dos mais variados portes – de carros e motos a caminhões. 
           Utilizamos dados logísticos e geográficos dos veículos permitindo que eles sejam monitorados 24h em todo território nacional.
         </p>
-        <p className="contact">Contato: (11)99999-9999</p>
-        <p className="contact">Endereço: Rua Osiris de Camargo, 100 - Parque Munhoz</p>
+        <p className="contact">Contato: (11)9870-79920</p>
       </div>
     </FooterContainer>
   )
