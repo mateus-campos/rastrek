@@ -197,8 +197,8 @@ export default function Plans(props) {
             <div className="price">
             <div className="values">
               <p className="primary">R$</p>
-              <p className="second">39</p>
-              <p className="primary">99</p>
+              <p className="second">59</p>
+              <p className="primary">90</p>
             </div>
             <p>Mês</p>
             </div>
@@ -252,8 +252,8 @@ export default function Plans(props) {
             <div className="price">
             <div className="values">
               <p className="primary">R$</p>
-              <p className="second">59</p>
-              <p className="primary">99</p>
+              <p className="second">69</p>
+              <p className="primary">90</p>
             </div>
             <p>Mês</p>
             </div>
