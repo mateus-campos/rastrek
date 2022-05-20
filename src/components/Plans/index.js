@@ -299,8 +299,6 @@ export default function Plans(props) {
           </div>
         </div>
       </div>
-      
-
     </PlansContainer>
   )
 }
